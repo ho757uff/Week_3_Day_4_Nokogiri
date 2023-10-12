@@ -7,12 +7,9 @@ require 'json'
 require 'nokogiri'
 require 'open-uri'
 
-# Dotenv.load('.env')
+Dotenv.load('.env')
 
 # ---
-
-
-
 
 puts "Voici quelles 'bloque-chiennes' tu pourrais acheter avec tes faibles économies:\n\n\n"
 
