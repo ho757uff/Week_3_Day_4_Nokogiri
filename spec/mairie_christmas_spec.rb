@@ -1,9 +1,7 @@
 require_relative '../lib/mairie_christmas.rb'
 
-describe "the mayor's office scrapping method" do
-  it "scraps a webpage and gathers mayors'offices emails" do
-
-
-    expect(greet("Alice")).to eq("Hello, Alice!")
+describe "the execute method" do
+  it "calls 2 methods to scrap a webpage and gather cryptos symbols and their corresponding values" do
+    expect(execute).not_to be_nil
   end
 end
